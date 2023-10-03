@@ -3,6 +3,7 @@ package com.elsol.ESE_Mobile_ReactNative;
 import android.os.Build;
 import android.os.Bundle;
 
+import expo.modules.ReactActivityDelegateWrapper;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
