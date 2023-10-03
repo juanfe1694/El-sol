@@ -35,7 +35,8 @@
       }
     },
     "plugins": [
-      "expo-localization"
+      "expo-localization",
+      "expo-appcenter"
     ]
   }
 }
