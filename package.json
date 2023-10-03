@@ -45,7 +45,7 @@
     "axios": "^1.4.0",
     "base-64": "^1.0.0",
     "crypto-js": "^4.1.1",
-    "expo": "~49.0.7",
+    "expo": "^49.0.13",
     "expo-appcenter": "^0.1.2",
     "expo-asset": "~8.10.1",
     "expo-background-fetch": "~11.3.0",
