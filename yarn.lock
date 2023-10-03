@@ -10047,6 +10047,11 @@ react-native-fs@^2.20.0:
     base-64 "^0.1.0"
     utf8 "^3.0.0"
 
+react-native-gradle-plugin@^0.71.19:
+  version "0.71.19"
+  resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.19.tgz#3379e28341fcd189bc1f4691cefc84c1a4d7d232"
+  integrity sha512-1dVk9NwhoyKHCSxcrM6vY6cxmojeATsBobDicX0ZKr7DgUF2cBQRTKsimQFvzH8XhOVXyH8p4HyDSZNIFI8OlQ==
+
 react-native-input-spinner@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/react-native-input-spinner/-/react-native-input-spinner-1.8.1.tgz#1802327a249192c560f58c65a1a857eeef1330c0"
