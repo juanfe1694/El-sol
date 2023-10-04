@@ -1332,27 +1332,6 @@
     xcode "^3.0.1"
     xml2js "0.6.0"
 
-"@expo/config-plugins@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.5.tgz#9d357d2cda9c095e511b51583ede8a3b76174068"
-  integrity sha512-RVvU40RtZt12HavuDAe+LDIq9lHj7sheOfMEHdmpJ/uTA8pgvkbc56XF6JHQD+yRr6+uhhb+JnAasGq49dsQbw==
-  dependencies:
-    "@expo/config-types" "^45.0.0"
-    "@expo/json-file" "8.2.36"
-    "@expo/plist" "0.0.18"
-    "@expo/sdk-runtime-versions" "^1.0.0"
-    "@react-native/normalize-color" "^2.0.0"
-    chalk "^4.1.2"
-    debug "^4.3.1"
-    find-up "~5.0.0"
-    getenv "^1.0.0"
-    glob "7.1.6"
-    resolve-from "^5.0.0"
-    semver "^7.3.5"
-    slash "^3.0.0"
-    xcode "^3.0.1"
-    xml2js "0.4.23"
-
 "@expo/config-plugins@~5.0.3":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-5.0.4.tgz#216fea6558fe66615af1370de55193f4181cb23e"
@@ -1373,11 +1352,6 @@
     slash "^3.0.0"
     xcode "^3.0.1"
     xml2js "0.4.23"
-
-"@expo/config-types@^45.0.0":
-  version "45.0.0"
-  resolved "https://registry.yarnpkg.com/@expo/config-types/-/config-types-45.0.0.tgz#963c2fdce8fbcbd003758b92ed8a25375f437ef6"
-  integrity sha512-/QGhhLWyaGautgEyU50UJr5YqKJix5t77ePTwreOVAhmZH+ff3nrrtYTTnccx+qF08ZNQmfAyYMCD3rQfzpiJA==
 
 "@expo/config-types@^47.0.0":
   version "47.0.0"
@@ -3274,14 +3248,14 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-appcenter-analytics@^5.0.0:
+appcenter-analytics@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/appcenter-analytics/-/appcenter-analytics-5.0.0.tgz#6c88bd8e9a789dcf06b126dda042e1e076055b95"
   integrity sha512-O9AtFBJBERuAneq96pALZDIdcQJzfwXnzO0NTo9RNMzOPwowQ55J0C0bVOh4El10M2O8zu4g52ZICN4HW0I5MA==
   dependencies:
     appcenter "5.0.0"
 
-appcenter-crashes@^5.0.0:
+appcenter-crashes@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/appcenter-crashes/-/appcenter-crashes-5.0.0.tgz#808e23e68b7421fdd0b09c4382314c1d133e76ef"
   integrity sha512-YD5nXi2mErcplm9hKAAQl3eVCoRzVSfvM7pIGDEskx4DLA87BEUmV3fIGVEGmMYRvKhc9Tr/7cS81MwkVMolEw==
@@ -3300,7 +3274,7 @@ appcenter-link-scripts@5.0.0:
     which "1.2.11"
     xcode "2.0.0"
 
-appcenter@5.0.0, appcenter@^5.0.0:
+appcenter@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/appcenter/-/appcenter-5.0.0.tgz#31b202888b352ffa89b182b82ac14dd386e99849"
   integrity sha512-19vruHWSfecflA2EcP39kiE00077A2httE/nUrbEsU2Od6ZW4sYvNUZkX2y9emR96HY4SpsUrdG2JeBIBXeoTg==
@@ -5738,13 +5712,6 @@ expect@^29.0.0, expect@^29.7.0:
     jest-message-util "^29.7.0"
     jest-util "^29.7.0"
 
-expo-appcenter@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/expo-appcenter/-/expo-appcenter-0.1.2.tgz#4aa3ec34e9e238525bdb919d6aa08be8ab05cef3"
-  integrity sha512-hENtFRUaK1lPcdGtAfDB0fYsumdIcuLEwp+YdpwhyRJ+58vdnx2l1xgOmF3CoaYSGoRTvk4qb+fGlqfejbS9MA==
-  dependencies:
-    "@expo/config-plugins" "^4.1.5"
-
 expo-application@~5.3.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/expo-application/-/expo-application-5.3.1.tgz#074bbfc6bb5d65ae74a67f5288fa3eb582237e53"
@@ -6015,7 +5982,7 @@ expo-web-browser@~12.3.2:
     compare-urls "^2.0.0"
     url "^0.11.0"
 
-expo@^49.0.13:
+expo@~49.0.7:
   version "49.0.13"
   resolved "https://registry.yarnpkg.com/expo/-/expo-49.0.13.tgz#9ee185d4eb1ac2859e67895bd919db5a04d1b8ec"
   integrity sha512-k2QFmT5XN490ksjKJgogfS5SFj6ZKCu1GwWz4VUV4S9gkPjzr8zQAZoVPKaWxUYRb6xDpTJXdhLt7gSnV3bJvw==
@@ -10077,11 +10044,6 @@ react-native-fs@^2.20.0:
   dependencies:
     base-64 "^0.1.0"
     utf8 "^3.0.0"
-
-react-native-gradle-plugin@^0.71.19:
-  version "0.71.19"
-  resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.19.tgz#3379e28341fcd189bc1f4691cefc84c1a4d7d232"
-  integrity sha512-1dVk9NwhoyKHCSxcrM6vY6cxmojeATsBobDicX0ZKr7DgUF2cBQRTKsimQFvzH8XhOVXyH8p4HyDSZNIFI8OlQ==
 
 react-native-input-spinner@^1.8.1:
   version "1.8.1"
