@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Text, View, StyleSheet, Button } from "react-native";
 import { FormikProps } from "formik";
 import { Fields } from "../../../interfaces/form";
-//import { Audio } from "expo-av";
+import { Audio } from "expo-av";
 import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 import { Label } from "../../../interfaces/form/formInterfaces";
@@ -59,17 +59,16 @@ export const VoiceRecorderComponent = ({
   const startRecording = async () => {
     try {
       setRecordings([]);
-      // ;
-      /*await Audio.requestPermissionsAsync();
+      await Audio.requestPermissionsAsync();
       await Audio.setAudioModeAsync({
         allowsRecordingIOS: true,
         playsInSilentModeIOS: true,
-      });*/
+      });
 
-     /* const { recording } = await Audio.Recording.createAsync(
+      const { recording } = await Audio.Recording.createAsync(
         Audio.RecordingOptionsPresets.HIGH_QUALITY
       );
-      setRecording(recording);*/
+      setRecording(recording);
     } catch (err) {
       console.error("Error starting recording:", err);
     }
