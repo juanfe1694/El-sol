@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "start-dev": "set NODE_ENV=development&& expo start",
+    "start": "set NODE_ENV=development&& expo start",
     "start-test": "set NODE_ENV=test&& expo start",
     "start-prod": "set NODE_ENV=production&& expo start",
     "android": "expo run:android",
